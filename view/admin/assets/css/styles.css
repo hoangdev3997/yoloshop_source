@@ -1,0 +1,285 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body,
+body>main {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.panel-title {
+    padding-left: 1em;
+}
+
+.mb-md {
+    padding-left: 2.4em;
+    display: flex;
+    justify-content: space-between;
+
+}
+button#add{
+    width: 10%;
+
+}
+.search-area{
+    width: 50%;
+}
+.table-responsive .display_by {
+    display: block;
+    float: left;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.form-hidden {
+    position: absolute;
+    z-index: 10;
+    background: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+}
+
+.form-hidden h3,.form-hidden h4 {
+    text-align: center;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+#error-form-hidden{
+    z-index: 9999;
+}
+.form-add,
+.form-edit,
+.form-del {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    padding: 5%;
+    width: 500px;
+    height: auto;
+    background: #fff;
+    z-index: 9999;
+}
+
+.hidden {
+    display: none;
+    visibility: visible;
+}
+
+.btn_cancel_form_add {
+    margin-left: 5%;
+}
+
+.btn-form {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+span.btn.btn-outline-danger.btn_cancel.fuse-ripple-input-wrapper.fuse-ripple-ready {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.page-content {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 65%;
+    background: #fff;
+}
+
+.bg-hidden {
+    position: absolute;
+    z-index: 10;
+    background: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.close-div {
+    position: absolute;
+    right: 1%;
+    top: 5%;
+}
+
+#myTab {
+    position: relative;
+}
+
+.btn-close {
+    padding: 25%;
+}
+
+.custom-file {
+    height: 715.25px !important;
+}
+
+.show-img {
+    position: relative;
+}
+
+.mini-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-mini-wrapper {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+}
+
+label.btn-del-img {
+    position: absolute;
+    z-index: 9999;
+    background: transparent;
+    right: 10%;
+    top: 0;
+    cursor: pointer;
+}
+
+label.btn-del-img i {
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.table th,
+.table td {
+    overflow: hidden;
+    max-width: 75px;
+}
+
+.save-edit-1 {
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    top: 0;
+}
+
+.save-img-edit {
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* Box upload */
+
+.box-upload {
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.box-upload h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.progress {
+    padding: 2px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.progress-bar {
+    background-color: #428bca;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px 0;
+    width: 0;
+}
+
+input[type=file] {
+    display: block;
+    font-size: 14px;
+}
+
+.box-preview-img {
+    margin-top: 10px;
+    display: none;
+}
+
+.box-preview-img p {
+    font-weight: bold;
+}
+
+.box-preview-img img {
+    width: 75px;
+    height: auto;
+    border: 1px solid #e5e5e5;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.output {
+    display: none;
+    background-color: #d9534f;
+    color: #fff;
+    padding: 7px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.success {
+    background-color: #5cb85c;
+}
+
+.del-form {
+    z-index: 9999;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #fff;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb 
+{    border-radius: 10px;
+    background-color: #FFF;
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#F33), to(#F00), color-stop(.6, #F66))
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
